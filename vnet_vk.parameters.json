@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+     "vnetAddressPrefix": {
+       "value" : "172.30.64.0/18"
+     },
+     "subnet1Prefix": {
+      "value" : "172.30.116.0/24"
+    },
+    "subnet1Name": {
+      "value" : "BackOffice"
+    },
+    "DNSServerAddress": {
+      "value" : [
+        "172.30.116.59",
+        "172.30.116.63"
+      ]
+    }
+ }
+}
